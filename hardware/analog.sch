@@ -4047,4 +4047,6 @@ Wire Wire Line
 Connection ~ 15500 8850
 Wire Wire Line
 	15500 8850 15500 9150
+Wire Wire Line
+	14950 6900 14950 6800
 $EndSCHEMATC
