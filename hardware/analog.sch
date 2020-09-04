@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
-Title ""
-Date "2020-01-02"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "TNG AO 4U 4I"
+Date "2020-09-04"
+Rev "1.1"
+Comp "Tinkerforge GmbH"
+Comment1 "Licensed under CERN OHL v.1.1"
+Comment2 "Copyright (©) 2020, B.Nordmeyer <bastian@tinkerforge.com>"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -869,7 +869,7 @@ U 1 1 5F570D9F
 P 3700 2300
 F 0 "C205" V 3750 2050 50  0000 L CNN
 F 1 "1nF" V 3750 2350 50  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 3830 2209 60  0001 L CNN
+F 2 "kicad-libraries:C0402F" H 3830 2209 60  0001 L CNN
 F 3 "" H 3700 2300 60  0001 C CNN
 	1    3700 2300
 	0    1    1    0   
@@ -1418,7 +1418,7 @@ U 1 1 5FBD0617
 P 3700 7500
 F 0 "C206" V 3750 7250 50  0000 L CNN
 F 1 "1nF" V 3750 7550 50  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 3830 7409 60  0001 L CNN
+F 2 "kicad-libraries:C0402F" H 3830 7409 60  0001 L CNN
 F 3 "" H 3700 7500 60  0001 C CNN
 	1    3700 7500
 	0    1    1    0   
@@ -1961,7 +1961,7 @@ U 1 1 5FD3665B
 P 9450 2300
 F 0 "C223" V 9500 2050 50  0000 L CNN
 F 1 "1nF" V 9500 2350 50  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 9580 2209 60  0001 L CNN
+F 2 "kicad-libraries:C0402F" H 9580 2209 60  0001 L CNN
 F 3 "" H 9450 2300 60  0001 C CNN
 	1    9450 2300
 	0    1    1    0   
@@ -2503,7 +2503,7 @@ U 1 1 5FD3678D
 P 9450 7500
 F 0 "C224" V 9500 7250 50  0000 L CNN
 F 1 "1nF" V 9500 7550 50  0000 L CNN
-F 2 "kicad-libraries:C0603F" H 9580 7409 60  0001 L CNN
+F 2 "kicad-libraries:C0402F" H 9580 7409 60  0001 L CNN
 F 3 "" H 9450 7500 60  0001 C CNN
 	1    9450 7500
 	0    1    1    0   
@@ -2912,7 +2912,7 @@ L tinkerforge:C C242
 U 1 1 60F13E06
 P 12500 2900
 F 0 "C242" V 12550 2700 50  0000 L CNN
-F 1 "2.2uF/30V" V 12400 2950 50  0000 L CNN
+F 1 "4.7uF/30V" V 12400 2950 50  0000 L CNN
 F 2 "kicad-libraries:C1206" H 12630 2809 60  0001 L CNN
 F 3 "" H 12500 2900 60  0001 C CNN
 	1    12500 2900
@@ -2942,7 +2942,7 @@ L tinkerforge:C C239
 U 1 1 6103E94E
 P 12200 2900
 F 0 "C239" V 12250 2700 50  0000 L CNN
-F 1 "2.2uF/30V" V 12100 2950 50  0000 L CNN
+F 1 "4.7uF/30V" V 12100 2950 50  0000 L CNN
 F 2 "kicad-libraries:C1206" H 12330 2809 60  0001 L CNN
 F 3 "" H 12200 2900 60  0001 C CNN
 	1    12200 2900

@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "TNG AO 4U 4I"
+Date "2020-09-04"
+Rev "1.1"
+Comp "Tinkerforge GmbH"
+Comment1 "Licensed under CERN OHL v.1.1"
+Comment2 "Copyright (©) 2020, B.Nordmeyer <bastian@tinkerforge.com>"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -459,8 +459,8 @@ L tinkerforge:CPs C111
 U 1 1 5AEB740F
 P 5100 1150
 F 0 "C111" H 5125 1225 31  0000 L CNN
-F 1 "TBD" H 5125 1075 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 5100 1150 60  0001 C CNN
+F 1 "100µF/35V" H 5125 1075 31  0000 L CNN
+F 2 "kicad-libraries:ELKO_63" H 5100 1150 60  0001 C CNN
 F 3 "" H 5100 1150 60  0000 C CNN
 	1    5100 1150
 	1    0    0    -1  
@@ -1692,7 +1692,7 @@ U 1 1 5D5C5D44
 P 7100 4150
 F 0 "C122" H 6950 4250 31  0000 L CNN
 F 1 "100µF/35V" V 7050 3850 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 7100 4150 60  0001 C CNN
+F 2 "kicad-libraries:ELKO_63" H 7100 4150 60  0001 C CNN
 F 3 "" H 7100 4150 60  0000 C CNN
 	1    7100 4150
 	-1   0    0    -1  
@@ -1967,7 +1967,7 @@ U 1 1 5DC4E7F4
 P 4650 4100
 F 0 "C124" H 4500 4150 31  0000 L CNN
 F 1 "100µF/35V" V 4550 3850 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 4650 4100 60  0001 C CNN
+F 2 "kicad-libraries:ELKO_63" H 4650 4100 60  0001 C CNN
 F 3 "" H 4650 4100 60  0000 C CNN
 	1    4650 4100
 	-1   0    0    -1  
@@ -2010,7 +2010,7 @@ U 1 1 5DDBB3DD
 P 4000 4100
 F 0 "C123" H 3850 4150 31  0000 L CNN
 F 1 "100µF/35V" V 3900 3850 31  0000 L CNN
-F 2 "kicad-libraries:ELKO_83" H 4000 4100 60  0001 C CNN
+F 2 "kicad-libraries:ELKO_63" H 4000 4100 60  0001 C CNN
 F 3 "" H 4000 4100 60  0000 C CNN
 	1    4000 4100
 	-1   0    0    -1  
@@ -2202,7 +2202,7 @@ U 1 1 5E4D4E80
 P 2950 5150
 F 0 "R109" V 3000 5150 31  0000 C CNN
 F 1 "10k" V 2950 5150 31  0000 C CNN
-F 2 "kicad-libraries:R0603F" H 2950 5150 60  0001 C CNN
+F 2 "kicad-libraries:R0402F" H 2950 5150 60  0001 C CNN
 F 3 "" H 2950 5150 60  0000 C CNN
 	1    2950 5150
 	-1   0    0    1   
@@ -2484,4 +2484,6 @@ SPI1 AF0
 NoConn ~ 1450 4900
 NoConn ~ 1450 3900
 NoConn ~ 1450 3800
+Text Notes 2500 7500 0    50   ~ 0
+Copyright Tinkerforge GmbH 2020.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.1.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.1. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.1 for applicable\nconditions
 $EndSCHEMATC
