@@ -956,11 +956,8 @@ F 1 "SMBJ18CA" H 1900 2750 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 1976 2728 60  0001 L CNN
 F 3 "" H 1900 2650 60  0001 C CNN
 	1    1900 2650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 1900 2400
-Wire Wire Line
-	1900 2400 2300 2400
 $Comp
 L tinkerforge:AGND #PWR0125
 U 1 1 5F8D2423
@@ -1002,8 +999,6 @@ Wire Wire Line
 	3450 3050 3650 3050
 Connection ~ 3650 3050
 Wire Wire Line
-	2950 3050 2800 3050
-Wire Wire Line
 	1450 3200 1450 2500
 Wire Wire Line
 	1450 2500 1150 2500
@@ -1026,11 +1021,8 @@ F 1 "SMBJ18CA" H 2800 3400 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 2876 3378 60  0001 L CNN
 F 3 "" H 2800 3300 60  0001 C CNN
 	1    2800 3300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 2800 3050
-Wire Wire Line
-	2800 3050 2600 3050
 $Comp
 L tinkerforge:C C203
 U 1 1 5FA74F75
@@ -1047,8 +1039,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 2450 1700 2400
 Connection ~ 1700 2400
-Wire Wire Line
-	1700 2400 1900 2400
 Wire Wire Line
 	2600 3100 2600 3050
 Connection ~ 2600 3050
@@ -1505,11 +1495,8 @@ F 1 "SMBJ18CA" H 1900 7950 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 1976 7928 60  0001 L CNN
 F 3 "" H 1900 7850 60  0001 C CNN
 	1    1900 7850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 1900 7600
-Wire Wire Line
-	1900 7600 2300 7600
 $Comp
 L tinkerforge:AGND #PWR0144
 U 1 1 5FBD064D
@@ -1584,8 +1571,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 7650 1700 7600
 Connection ~ 1700 7600
-Wire Wire Line
-	1700 7600 1900 7600
 Wire Wire Line
 	2600 8300 2600 8250
 Connection ~ 2600 8250
@@ -2039,9 +2024,6 @@ F 3 "" H 7450 2950 50  0000 C CNN
 	1    7450 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 7650 2400
-Wire Wire Line
-	7650 2400 8050 2400
 $Comp
 L tinkerforge:AGND #PWR0157
 U 1 1 5FD36691
@@ -2083,8 +2065,6 @@ Wire Wire Line
 	9200 3050 9400 3050
 Connection ~ 9400 3050
 Wire Wire Line
-	8700 3050 8550 3050
-Wire Wire Line
 	7800 3050 7800 3200
 Wire Wire Line
 	7200 3200 7200 2500
@@ -2109,11 +2089,8 @@ F 1 "SMBJ18CA" H 8550 3400 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 8626 3378 60  0001 L CNN
 F 3 "" H 8550 3300 60  0001 C CNN
 	1    8550 3300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 8550 3050
-Wire Wire Line
-	8550 3050 8350 3050
 $Comp
 L tinkerforge:C C221
 U 1 1 5FD366B8
@@ -2132,8 +2109,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 2450 7450 2400
 Connection ~ 7450 2400
-Wire Wire Line
-	7450 2400 7650 2400
 Wire Wire Line
 	8350 3100 8350 3050
 Connection ~ 8350 3050
@@ -2590,11 +2565,8 @@ F 1 "SMBJ18CA" H 7650 7950 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 7726 7928 60  0001 L CNN
 F 3 "" H 7650 7850 60  0001 C CNN
 	1    7650 7850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 7650 7600
-Wire Wire Line
-	7650 7600 8050 7600
 $Comp
 L tinkerforge:AGND #PWR0170
 U 1 1 5FD367C3
@@ -2636,8 +2608,6 @@ Wire Wire Line
 	9200 8250 9400 8250
 Connection ~ 9400 8250
 Wire Wire Line
-	8700 8250 8550 8250
-Wire Wire Line
 	7800 8250 7800 8400
 Wire Wire Line
 	7200 8400 7200 7700
@@ -2662,11 +2632,8 @@ F 1 "SMBJ18CA" H 8550 8600 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 8626 8578 60  0001 L CNN
 F 3 "" H 8550 8500 60  0001 C CNN
 	1    8550 8500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Connection ~ 8550 8250
-Wire Wire Line
-	8550 8250 8350 8250
 $Comp
 L tinkerforge:C C222
 U 1 1 5FD367EA
@@ -2685,8 +2652,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 7650 7450 7600
 Connection ~ 7450 7600
-Wire Wire Line
-	7450 7600 7650 7600
 Wire Wire Line
 	8350 8300 8350 8250
 Connection ~ 8350 8250
@@ -2766,17 +2731,12 @@ F 1 "SMBJ18CA" H 7650 2750 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 7726 2728 60  0001 L CNN
 F 3 "" H 7650 2650 60  0001 C CNN
 	1    7650 2650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2050 3050 2050 3200
 Wire Wire Line
 	1150 2400 1700 2400
-Connection ~ 2800 8250
-Wire Wire Line
-	2800 8250 2600 8250
-Wire Wire Line
-	2950 8250 2800 8250
 $Comp
 L tinkerforge:TVS D214
 U 1 1 5FBD066C
@@ -2786,7 +2746,7 @@ F 1 "SMBJ18CA" H 2800 8600 40  0000 L CNN
 F 2 "kicad-libraries:SMB" V 2876 8578 60  0001 L CNN
 F 3 "" H 2800 8500 60  0001 C CNN
 	1    2800 8500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L tinkerforge:TPS7A49 U208
@@ -4049,4 +4009,44 @@ Wire Wire Line
 	15500 8850 15500 9150
 Wire Wire Line
 	14950 6900 14950 6800
+Wire Wire Line
+	7450 2400 7650 2400
+Connection ~ 7650 2400
+Wire Wire Line
+	7650 2400 8050 2400
+Wire Wire Line
+	8350 3050 8550 3050
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3050 8700 3050
+Wire Wire Line
+	1700 2400 1900 2400
+Connection ~ 1900 2400
+Wire Wire Line
+	1900 2400 2300 2400
+Wire Wire Line
+	2600 3050 2800 3050
+Connection ~ 2800 3050
+Wire Wire Line
+	2800 3050 2950 3050
+Wire Wire Line
+	1700 7600 1900 7600
+Connection ~ 1900 7600
+Wire Wire Line
+	1900 7600 2300 7600
+Wire Wire Line
+	2600 8250 2800 8250
+Connection ~ 2800 8250
+Wire Wire Line
+	2800 8250 2950 8250
+Wire Wire Line
+	7450 7600 7650 7600
+Connection ~ 7650 7600
+Wire Wire Line
+	7650 7600 8050 7600
+Wire Wire Line
+	8350 8250 8550 8250
+Connection ~ 8550 8250
+Wire Wire Line
+	8550 8250 8700 8250
 $EndSCHEMATC
